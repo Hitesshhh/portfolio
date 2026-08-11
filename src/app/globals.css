@@ -2,7 +2,15 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000201;
+}
+
+@theme {
+  --color-brand: #B61118;
+  --color-brand-light: #ffffff;
+  --color-brand-dark: #000201;
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-anton: "Anton",sans-serif;
 }
 
 @theme inline {

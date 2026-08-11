@@ -1,10 +1,20 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono,Bebas_Neue,Anton } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
+const bebasFont = Bebas_Neue({
+  variable:"--font-bebas",
+  weight: ["400"]
+})
+
+const antonFont = Anton({
+  variable:"--font-anton",
+  weight: ["400"]
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -20,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${bebasFont.variable} ${antonFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
