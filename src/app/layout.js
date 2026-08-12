@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono,Bebas_Neue,Anton } from "next/font/google";
+import { Geist, Geist_Mono,Bebas_Neue,Anton,Oswald,Hurricane,Inter,Poppins } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,8 +11,28 @@ const bebasFont = Bebas_Neue({
   weight: ["400"]
 })
 
+const interFont = Inter({
+  variable:"--font-inter",
+  weight: ["100","200","300","400","400","500","600","700","800","900"]
+})
+
+const poppinsFont = Poppins({
+  variable:"--font-poppins",
+  weight: ["100","200","300","400","400","500","600","700","800","900"]
+})
+
+const oswaldFont = Oswald({
+  variable:"--font-oswald",
+  weight: ["200","300","400","400","500","600","700"]
+})
+
 const antonFont = Anton({
   variable:"--font-anton",
+  weight: ["400"]
+})
+
+const hurricaneFont = Hurricane({
+  variable:"--font-hurricane",
   weight: ["400"]
 })
 
@@ -30,7 +50,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${bebasFont.variable} ${antonFont.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${bebasFont.variable} ${antonFont.variable} ${oswaldFont.variable} ${hurricaneFont.variable} ${interFont.variable} ${poppinsFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

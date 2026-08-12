@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #000201;
+  --foreground: #171717;
 }
 
 @theme {
@@ -10,7 +10,17 @@
   --color-brand-light: #ffffff;
   --color-brand-dark: #000201;
   --font-bebas: "Bebas Neue", sans-serif;
+  --font-hurricane: "Hurricane",cursive;
   --font-anton: "Anton",sans-serif;
+  --font-oswald: "Oswald",sans-serif;
+    --font-inter: "Inter",sans-serif;
+  --font-poppins: "Poppins",sans-serif;
+  --gradientEffect: linear-gradient(
+  to top,
+  #000000 0%,
+  #555555 50%,
+  #ffffff 100%
+);
 }
 
 @theme inline {
