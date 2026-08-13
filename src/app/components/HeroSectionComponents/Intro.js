@@ -12,7 +12,7 @@ export const Intro = () => {
             <span>SOFTWARE DEVELOPER &</span>
             <span>CONTENT CREATOR</span>
         </div>
-        <div className='font-poppins font-light text-white/80 leading-6'>
+        <div className='font-poppins font-light text-white/80 leading-6 mb-3'>
             <p>I build modern websites, AI-powered web applications, mobile apps, and custom software that help businesses grow. As a software developer and content creator, I create fast, scalable, and user-focused digital solutions that turn ideas into real-world impact.</p>
         </div>
     </div>
