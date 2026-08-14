@@ -18,15 +18,15 @@ export const ProjectCard = () => {
           />
         </div>  
         <div>
-          <div className="flex py-5 items-start gap-12 justify-items-start">
-            <p className="text-brand text-4xl font-oswald font-bold scale-y-[1.5] w-10">
+          <div className="flex py-5 items-center gap-12">
+            <p className="text-brand text-4xl font-oswald font-bold scale-y-[1.3] w-10">
               01
             </p>
-            <div className="flex flex-col gap-2 flex-1">
-              <span className="text-lg font-medium font-poppins leading-none scale-y-[1.3]">
+            <div className="flex flex-col gap-1 flex-1">
+              <span className="text-xl font-medium font-poppins leading-none">
                 VLOCE BIKES
               </span>
-              <span className="text-md font-normal font-poppins leading-none text-white/75">
+              <span className="text-md font-normal font-poppins leading-none text-white/50">
                 E-COMMERCE WEBSITE
               </span>
             </div>
