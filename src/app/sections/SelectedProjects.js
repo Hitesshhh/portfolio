@@ -16,9 +16,9 @@ export const SelectedProjects = () => {
             </Link>
         </div>
         <div className='projectsSlide flex gap-10'>
-            <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
+            <ProjectCard index={"01"}/>
+            <ProjectCard index={"02"}/>
+            <ProjectCard index={"03"}/>
         </div>
         </div>
     </div>

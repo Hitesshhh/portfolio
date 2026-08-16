@@ -4,7 +4,7 @@
 export const Navbar = () => {
     return(
         <div>
-            <div className="navContainer flex justify-between items-center p-5 border-b-[1px] border-brand">
+            <div className="navContainer flex justify-between items-center py-5 px-4 border-b-[1px] border-brand">
                 <div className="WhoIam flex flex-col">
                     <span className="fulltime text-sm text-brand font-bold">SOFTWARE DEVELOPER</span>
                     <span className="parttime text-xs">CONTENT CREATOR</span>

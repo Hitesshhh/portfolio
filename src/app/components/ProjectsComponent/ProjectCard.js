@@ -2,11 +2,12 @@ import { MoveRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-export const ProjectCard = () => {
+export const ProjectCard = ({index}) => {
+
   return (
     <div className="w-1/3">
       <div className="flex flex-col projectContainer">
-        <div className="projectImageContainer border border-white/25 w-full h-80">
+        <div className="projectImageContainer border border-white/25 w-full h-56">
           <Image
             className="w-full h-full object-fill"
             src={
@@ -20,7 +21,7 @@ export const ProjectCard = () => {
         <div>
           <div className="flex py-5 items-center gap-12">
             <p className="text-brand text-4xl font-oswald font-bold scale-y-[1.3] w-10">
-              01
+              {index}
             </p>
             <div className="flex flex-col gap-1 flex-1">
               <span className="text-xl font-medium font-poppins leading-none">
